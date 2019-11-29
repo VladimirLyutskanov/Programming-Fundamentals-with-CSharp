@@ -16,7 +16,7 @@ namespace _07._AppendArrays
             List<string> numbers = new List<string>();
             foreach (var str in symbols)
             {
-                numbers.AddRange(str.Split(" ", StringSplitOptions.RemoveEmptyEntries).ToList());
+                numbers.Add(str);
 
             }
 
